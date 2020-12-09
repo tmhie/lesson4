@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdownlist</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		input {
+			font-size: 10pt;
+			width: 200px;
+			display: block;
+		}
+
+		form label {
+			display: block;
+			margin-top: 10px;
+		}
+		button{
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Registration Form - Job Seekers</h1><br>
+	<form>
+		<div class="form label">
+			<label>Login Name:</label>
+			<input required="true" minlength="0" maxlength="30" type="text" name="login name" placeholder="Enter name">
+		</div>
+		<div>
+			<label>Password:</label>
+				<input required="true" type="password" name="password" placeholder="Enter password">
+		</div>
+		<div>
+			<label>Re-enter Password:</label>
+			<input required="true" type="password" name="password" placeholder=" Re-enter password">
+			
+		<div>
+			<label>Gender:</label>
+		<select required="true">
+			<option value=""> --Nhap gioi tinh--</option>
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+		</select>
+		</div>
+		<div>
+			<label>Experience (In Years):</label>
+			<select required="true">
+			<option value="">Select...</option>
+			<option value="0-1">0-1</option>
+			<option value="1-2">1-2</option>
+			<option value="2-3">2-3</option>
+			<option value="3+">3+</option>
+		</select>
+
+		</div>
+		<a href="thankyou.html">Register</a><button>Cancel</button>
+	</form>
+	
+</body>
+</html>
